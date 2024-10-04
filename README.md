@@ -3,6 +3,8 @@
 
 This repository contains a simple Streamlit application for embedding and analyzing user thoughts using PostgreSQL and Principal Component Analysis (PCA).
 
+![image](https://github.com/user-attachments/assets/6381166d-551c-4da3-8a35-e0e59de0610d)
+
 ## Table of Contents
 
 - [Cloud Setting](#cloud_setting)
@@ -12,7 +14,7 @@ This repository contains a simple Streamlit application for embedding and analyz
 - [Functions Overview](#functions-overview)
   - [import_embedding.py](#import_embedding.py)
   - [stream_app.py](#stream_app.py) 
-  - [utils.py]
+  - utils.py
 - [License](#license)
 
 ## Cloud Setting
@@ -71,4 +73,3 @@ ALTER TABLE thought_embedding ADD COLUMN embedding vector GENERATED ALWAYS AS (e
 ```bash
 pip install sqlalchemy streamlit pandas matplotlib scikit-learn pg8000
 ```
-![image](https://github.com/user-attachments/assets/6381166d-551c-4da3-8a35-e0e59de0610d)
