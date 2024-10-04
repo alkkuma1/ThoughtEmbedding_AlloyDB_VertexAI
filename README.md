@@ -24,6 +24,6 @@ This repository contains a simple Streamlit application for embedding and analyz
 
 ```bash
 pip install sqlalchemy streamlit pandas matplotlib scikit-learn pg8000
-
+```
 ![image](https://github.com/user-attachments/assets/6381166d-551c-4da3-8a35-e0e59de0610d)
 
