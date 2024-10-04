@@ -1,0 +1,6 @@
+sqlalchemy
+streamlit
+pandas
+matplotlib
+scikit-learn
+pg8000
