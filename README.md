@@ -4,7 +4,9 @@ This repository contains a simple Streamlit application for embedding and analyz
 
 ## Table of Contents
 
-- [Installation](#installation)
+- [Cloud Setting](#cloud_setting)
+- - [API](#API)
+- - [SQL](#sql)
 - [Usage](#usage)
 - [Folder Structure](#folder-structure)
 - [Functions Overview](#functions-overview)
@@ -13,7 +15,18 @@ This repository contains a simple Streamlit application for embedding and analyz
   - [utils.py](#utilspy)
 - [License](#license)
 
-## Installation
+## cloud_setting
+1. Create a Google Cloud Account
+
+###API
+Enable below APIs
+1. AlloyDB API
+2. Compute Engine API
+3. Cloud Resource Manager API
+4. Service Networking API
+
+###SQL
+
 
 ### Requirements
 
