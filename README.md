@@ -15,10 +15,10 @@ This repository contains a simple Streamlit application for embedding and analyz
   - [utils.py](#utilspy)
 - [License](#license)
 
-## cloud_setting
+## Cloud Setting
 1. Create a Google Cloud Account
 
-###API
+##API
 Enable below APIs
 1. AlloyDB API
 2. Compute Engine API
