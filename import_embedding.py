@@ -50,6 +50,6 @@ def similar_thoughts(thought):
    )
    with pool.connect() as db_conn:
       sql= "SELECT thought, entry_date FROM thought_embedding WHERE entry_date::DATE < NOW()::DATE ORDER BY embedding <-> (SELECT embedding FROM thought_embedding WHERE thought = '"+thought+"') LIMIT 3;"
-      similar_thought = db_conn.execute(sqlalchemy.text(sql)).fetchall()
+      similar_thought = db_conn.execute(sqlalchemy.text(sql), {"thought": thought}).fetchall()      
       return similar_thought
    return "No similar thoughts found"
